@@ -13,7 +13,8 @@ public class test {
 		System.out.println("Moltiplicazione: x=" + Numero2D.moltiplicazione(uno, due).getX() + " y=" + Numero2D.moltiplicazione(uno, due).getY());
 		System.out.println("Divisione: x=" + Numero2D.divisione(uno, due).getX() + " y=" + Numero2D.divisione(uno, due).getY());
 		
-		System.out.println("\nDistanza tra i due punti: " + uno.distanza(due));
+		//stampa il risultato restituito dal modulo distanza() come Double
+		System.out.println("\nDistanza tra i due punti nel piano cartesiano: " + uno.distanza(due));
 	}
 
 }
