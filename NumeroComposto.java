@@ -36,7 +36,7 @@ public class NumeroComposto {
 		return new NumeroComposto(uno.x*due.x,uno.y*due.y);
 	}
 	static NumeroComposto divisione(NumeroComposto uno, NumeroComposto due) {
-		
+		//Inserisce il risultato delle divisioni in due variabili Double temporanee. Quindi restituisce l'oggetto coi due valori resi Integer grazie al modulo della classe Double
 		Double primo = uno.x.doubleValue()/due.x.doubleValue();
 		Double secondo = uno.y.doubleValue()/due.y.doubleValue();
 		
